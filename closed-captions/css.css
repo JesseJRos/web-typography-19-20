@@ -5,6 +5,9 @@ Show them when they receive the class 'on'
 Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
+body {
+	background-color: black;
+}
 #closed-captions p {
 	opacity: 0;
 	transition: .05s;
@@ -18,7 +21,85 @@ Feel free to adjust the defaults to your needs.
 	opacity: 0;
 }
 .voice1 {
-	font-style: italic;
+	font-family: "Brenner sans light";
+	color: #6BA6A7;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 15px;
+	padding: 0.5em;
+	display: inline-block;
+	margin-top: -7em;
+}
+
+.voice2 {
+	font-family: "Brenner slab medium italic";
+	color: #7A77D2;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 15px;
+	padding: 0.5em;
+	display: inline-block;
+	margin-top: -7em;
+}
+
+.voice3 {
+	font-family: "Brenner sans bold italic";
+	color: rgb(90, 138, 98);
+	text-decoration-style: double;
+	text-decoration-line: underline;
+	text-decoration-color: rgb(156, 64, 64);
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 15px;
+	padding: 0.5em;
+	display: inline-block;
+	margin-top: -19em;
+	margin-left: 8em;
+}
+
+.voice4 {
+	font-family: "Brenner sans";
+	color: rgb(134, 167, 107);
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 15px;
+	padding: 0.5em;
+	display: inline-block;
+	margin-top: -7em;
+}
+
+.voice1-2 {
+	font-family: "Brenner sans light";
+	color: #6BA6A7;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 15px;
+	padding: 0.5em;
+	display: inline-block;
+	margin-top: -7em;
+}
+
+.voice2-2 {
+	font-family: "Brenner slab medium italic";
+	color: #7A77D2;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 15px;
+	padding: 0.5em;
+	display: inline-block;
+	margin-top: -7em;
+}
+
+iframe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+}
+
+#closed-captions {
+	text-align: center;
+	margin-left: -30em;
+}
+
+.animated {
+	animation-duration: 5s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
 }
 
 /* **********************************************
