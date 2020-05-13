@@ -61,7 +61,7 @@ body {
 	100% { transform: translate(0); }
   }
 
-  @keyframes swingLeft {
+  /* @keyframes swingLeft {
 	0% {
 			  transform: rotateY(100deg);
 			  transform-origin: left;
@@ -72,7 +72,7 @@ body {
 			  transform-origin: left;
 	  opacity: 1;
 	}
-  }
+  } */
   
 .voice1 {
 	font-family: "Brenner sans light";
