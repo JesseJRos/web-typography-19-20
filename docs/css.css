@@ -5,17 +5,13 @@ Show them when they receive the class 'on'
 Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
-body {
-	background-color: black;
-}
-
 html, body {
-	width: 100%;
+	width: 99%;
 	height: 100%;
-	min-height: 100%
+	min-height: 100%;
 	height: auto;
 	background: black;
-  }
+}
 
 #closed-captions p {
 	opacity: 0;
@@ -23,6 +19,7 @@ html, body {
 	position: absolute;
 	transform: translatex(-50%);
 	left: 50%;
+	font-size: 1.3em;
 }
 #closed-captions .on {
 	opacity: 1;
@@ -32,6 +29,9 @@ html, body {
 	opacity: 0;
 }
 
+/*************
+All Animations
+**************/
 @keyframes borderGlow {
 	0% { box-shadow: 0px 0px 0px 0px rgb(0, 0, 0); }
 	50% { box-shadow: 0px 0px 150px 100px rgb(63, 116, 83); }
@@ -68,7 +68,10 @@ html, body {
 	80% { transform: translate(2px, -2px); }
 	100% { transform: translate(0); }
   }
-  
+
+/**************
+All Used Voices
+**************/
 .voice1 {
 	font-family: "Brenner sans light";
 	color: #6BA6A7;
@@ -77,33 +80,39 @@ html, body {
 	margin: 0.5em;
   	padding: 0.5em;
 	display: inline-block;
-	margin-top: -7em;
+	margin-top: -7.6em;
 }
 
 .voice1::before {
 	background: url("images/bubbleInterrogator.svg") no-repeat;
 	content:"";
-	background-size: 40px;
-	padding: 0.9em 0.9em 1.2em 1.2em;
+	background-size: 70px;
+	padding: 1.3em 1.5em 1.5em 1.5em;
 	margin-right: 0.6em;
+	opacity: 0.6;
 }
 
 .voice2 {
 	font-family: "Brenner slab medium italic";
 	color: #7A77D2;
-	background-color: rgba(26, 26, 26, 0.5);
+	background-color: rgba(0, 0, 0, 0.5);
 	border-radius: 15px;
 	padding: 0.5em;
 	display: inline-block;
-	margin-top: -7em;
+	margin-top: -7.6em;
 }
+
+/* .iconK {
+	image: url("images/bubbleK.svg");
+} */
 
 .voice2::before {
 	background: url("images/bubbleK.svg") no-repeat;
 	content:"";
-	background-size: 40px;
-	padding: 0.9em 0.9em 1.2em 1.2em;
+	background-size: 70px;
+	padding: 1.3em 1.5em 1.5em 1.5em;
 	margin-right: 0.6em;
+	opacity: 0.6;
 }
 
 .voice3 {
@@ -150,6 +159,9 @@ html, body {
 	margin-top: -7em;
 }
 
+/***************
+Sounds Animated
+***************/
 .sound0 {
 	animation: shakeTurn 0.5s ease-in-out;
 	animation-iteration-count: 2;
@@ -174,17 +186,13 @@ html, body {
 	animation: vibrate 0.3s linear infinite both;
 }
 
-.swingLeft {
-	animation: swingLeft 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
-}
-
 iframe {
 	display: block;
+	margin-top: 5em;
 	margin-left: auto;
 	margin-right: auto;
-	border: none;
 	width: 80%;
-	height: 30em;
+	height: 40em;
 }
 
 #closed-captions {
@@ -201,22 +209,18 @@ iframe {
 /*************************
  Replicant SFX Kitt Style
  ************************/
-  
+
 #replicantKitt {
 	position: absolute;
-	top: 5%;
+	top: 30%;
 	left: 3%;
 	opacity: 0.8;
-	/* width: 100%; */
-	/* margin: -75px 0 0 -620px; */
-	/* transform: rotate(90deg); */
   }
   .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten {
 	width: 80px;
 	height: 40px;
 	background: rgb(44, 197, 133);
 	margin: 0;
-	/* display: inline-block; */
 	box-shadow: 0 0 30px rgb(44, 197, 133), inset 0 0 5px rgba(44, 197, 133, 0.5);
 	border-radius: 25px;
 	animation: 2.5s infinite alternate;
@@ -321,19 +325,16 @@ iframe {
 
   #replicantKitt2 {
 	position: absolute;
-	top: 5%;
-	left: 92%;
+	top: 30%;
+	left: 90.5%;
 	opacity: 0.8;
-	/* width: 100%; */
-	/* margin: -75px 0 0 -620px; */
-	/* transform: rotate(90deg); */
+
   }
   .one2, .two2, .three2, .four2, .five2, .six2, .seven2, .eight2, .nine2, .ten2 {
 	width: 80px;
 	height: 40px;
 	background: rgb(44, 197, 133);
 	margin: 0;
-	/* display: inline-block; */
 	box-shadow: 0 0 30px rgb(44, 197, 133), inset 0 0 5px rgba(44, 197, 133, 0.5);
 	border-radius: 25px;
 	animation: 2.5s infinite alternate;
