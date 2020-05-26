@@ -1,81 +1,25 @@
-# Responsive Typography, 2019/2020
+### Web Typography, Jesse Ros
+[Alle gesprekken met Darice staan hier genoteerd](https://docs.google.com/document/d/1-F7joxiKgjRJFMIHJM7xXkuiHlDqgFeEEK6WWKMJgpA/edit?usp=sharing)
 
-Als je doof bent, of als je om een andere reden geen geluid kunt horen, dan mis je veel informatie als je een film kijkt. Knisperende voetstappen, langzaam aanzwellende muziek, nerveus getik op een deur, je hoort het natuurlijk allemaal niet. Nu bestaat er zoiets als *closed caption*, wat een type ondertiteling is waarbij ook dingen als omgevingsgeluiden en de muziek beschreven worden. Hierdoor krijgt een kijker die informatie wel binnen.
+# Ontwerpkeuzes
+## vlakverdeling
 
-Alleen wordt die auditieve informatie nogal neutraal beschreven. Het geluid van huilend persoon zou bijvoorbeeld beschreven kunnen worden als *snikgeluid op de achtergrond*. En iemand die lacht zou geschreven kunnen worden als *iemand lacht.* Heel neutraal, bijna zakelijk, en bovendien allebei in precies hetzelfde neutrale lettertype. Terwijl het toch echt over twee heel verschillende emoties gaat. 
+Na het kennismakings gesprek met Darice begon ik eerst met de ondertiteling op het scherm te zetten. Wanneer de video in volledig scherm word getoond staat deze ook hier en het zorgt ervoor dat je je ogen op het beeld kan houden en tegelijkertijd kan lezen wat er word gezegd. 
 
-Dat kan visueel sterker. 
+In latere iteraties heb ik ook nog gespeeld met tekst op verschillende plekken op het scherm te zetten. Zoals bij de 'fuck off, skin job!' line. Deze verschijnt boven het hoofd van de man die het uitspreekt. Dit werkte erg goed volgens Darice, dus ik heb deze een kleine animatie gegeven en wat meer styling.  
 
-En dat gaan jullie doen.
+![fuckoffskinjob](https://user-images.githubusercontent.com/37974966/82904526-e40ead80-9f62-11ea-8097-a9f8477c77fc.gif)
 
-## Leerdoelen
+Ook heb ik in de scenes waarbij beide personen 'cells' en 'interlinked' heen en weer zeggen, de woorden anders gepositioneerd en geanimeerd. Deze animaties zorgen er voor dat je merkt hoe snel zij dit heen en weer zeggen. De positionering is vooral voor hoe het er uit ziet. Wanneer de camera draait verandert de positie van de 'cells' zinnen van 'K' ook naar de linker kant zoals je hier kunt zien.
 
-- Je kan de kennis over vormgeving die je hebt opgedaan tijdens de minor technisch toepassen met behulp van CSS
-- Je kan verborgen nuance uit een audiotrack overtuigend vertalen naar visuele (typografische) beelden
-- Je kan je typografische keuzes onderbouwen.
-- Je hebt de exclusive design principles gebruikt.
+![cellsInterlinked](https://user-images.githubusercontent.com/37974966/82906582-c858d680-9f65-11ea-9923-5ce4fcedce1a.gif)
 
-## Oplevering
+## typografische onderbouwing
+Daarnaast ging ik goed luisteren naar hoe de personen klinken en wat hun rol is in deze scenes. Ik heb door alle fonts uit de Brenner family gekeken en daar 2 van uitgekozen die ik het beste vond passen bij hun tone of voice. De 'intercom' stem heeft een grijs-groene kleur gekregen en word weergegeven in 'Brenner sans light'. Een kil ogend lettertype en kleur voor een robotisch klinkende stem die erg serieus overkomt in deze scenes. Het lettertype is recht toe recht aan, zonder poespas. En de kleur ondersteund dit.
 
-Je levert een werkende versie op, gemaakt met HTML, CSS en JavaScript. Deze staat op Github. In een duidelijke readme documenteer en onderbouw je je ontwerpkeuzes. Je developmentgeschiedenis is terug te vinden op GitHub.
+<img width="216" alt="Screenshot 2020-05-26 at 15 31 56" src="https://user-images.githubusercontent.com/37974966/82906894-37cec600-9f66-11ea-9235-0014b71f4243.png">
 
-Je levert ook een *screen recording* met audio op van je fragment. Dit is een video van de definitieve versie, gemaakt van jouw browserscherm.
+Voor het personage *K* heb ik een meer uitgesproken font gekozen, namelijk 'Brenner slab medium italic'. Het is een dik lettertype met de kenmerkende serif uitsteeksels. Het komt statisch en zelfverzekerd over. De paarse lavendel-achtige kleur valt binnen het cyberpunk thema dat kenmerkend is voor deze film, net zoals de grijs-groene kleur van de intercom spreker. Ook brengt deze kleur een soort nobelheid met zich mee, wat ik goed vind passen bij 'K'. 
 
-## Typografische restricties
+<img width="192" alt="Screenshot 2020-05-26 at 15 32 05 copy" src="https://user-images.githubusercontent.com/37974966/82906937-44531e80-9f66-11ea-8e73-01f5b9851f42.png">
 
-Je *moet* een van deze twee opties kiezen, en je keuze moet je onderbouwen. In je readme staat een uitleg over je overwegingen om de ene of de andere restrictie te kiezen.
-
-### Optie 1: Systeemfont
-
-De eerste optie is dat je gebruik maakt van het zogenaamde *systeemfont* van degene die naar jouw werk kijkt. Dit font verschilt per operating system, en het verschilt soms zelfs per versie van het operating system. Het is ook aan te passen door de gebruiker zelf. 
-
-Je hebt dus geen controle over welk lettertype er precies gebruikt wordt. Het levert dus een onzeker, en beperkt typografisch palet op. Je hebt geen *light* versies, of *extrabold*. En ook geen serif en sans-serif versie van dezelfde familie. In dit geval heb je alleen de beschikking over normal, **bold** en _italic_. Dit heeft natuurlijk ook zijn voordelen!
-
-### Optie 2: Brenner
-
-Je kan er ook voor kiezen om gebruik te maken van de complete Brenner familie. Dit is een zeer uitgebreid en uiterst flexibel font. [Hier kan je je verdiepen in dit font](https://www.typotheque.com/blog/brenner_an_unusual_typeface_family_with_distinct_voices). Als je kiest voor dit font dan heb je de beschikking over een *sans serif*, een *condensed*, een *serif*, een *monotype*, een *slab*, een *display* en een *script* versie. En veel van deze versies hebben varianten van *light* tot *bold*, en allemaal zowel *bold* als *italic*.
-
-Met Brenner zijn er natuurlijk veel en veel meer mogelijkheden dan met systeemfonts. Dat kan zowel een voordeel als een nadeel zijn. 
-
-Voor een overzicht, zie [de brenner.pdf](brenner.pdf).
-
-## Het fragment
-
-Ik heb een fragment voorbereid. Het gaat om twee scenes uit *Blade Runner 2049*. De captions staan in de HTML, en ze verschijnen in sync met de video. [Kijk maar](closed-captions/index.html).
-
-### De captions
-
-De captions staan in de html, in het bestand index.html. Je kan aan elke paragraaf eventueel een of meer classes toevoegen. Bijvoorbeeld `voice1` of `voice2 soft`. Classes voeg je handmatig toe in de html.
-
-Met JavaScript worden er een paar dingen extra gedaan: 
-
-- er wordt aan elke paragraaf een unieke class toegevoegd (`p0`, `p1`, etc)
-- Elk woord wordt in een aparte `span` gezet. Hierdoor kan je elk woord apart stylen, en eventueel ook [na elkaar laten verschijnen](https://github.com/cmda-minor-vid/web-typography-18-19/blob/master/closed-captions/css.css#L41).
-
-### Tijdens het afspelen
-
-Tijdens het afspeelen wordt er een class `on` op de caption gezet als hij moet verschijnen, en een class `off` als hij klaar is. *Zowel class `on` als class `off` blijft op de caption staan!*
-
-De timimg van de captions kan je aanpassen in [closed-captions/captions.js](closed-captions/captions.js).
-
-Er verschijnen ook classes op de body op momenten dat er geluiden worden afgespeeld, zoals `sound1` en `sound2`. Je kan geluiden toevoegen in [closed-captions/sounds.js](closed-captions/sounds.js).
-
-*let op,* de geluiden zijn niet compleet, dit zal je zelf moeten aanvullen.
-
-## Een eigen fragment (afgeraden, uitgebreide onderbouwing is nodig)
-
-Je kan er ook voor kiezen om een eigen, *beter* fragment te gebruiken. Dit wordt afgeraden. De tijd die je besteedt aan het zoeken naar dat fragment kan je beter besteden aan het werken aan de opdracht. Bovendien blijkt dat er vaak fragmenten worden gekozen die niet goed voldoen aan de opdracht. Als je een ander fragment kiest dan *moet* je dit goed onderbouwd voorleggen aan je docent. De deadline hiervoor is vrijdagochtend in de eerste week.
-
-### Waar moet je op letten bij het kiezen van een eigen fragment.
-Lees de opdracht nog eens goed door. Waar gaat het ook al weer precies om? 
-
-Voor een goede onderbouwing van je keuze voor een ander fragment moet je deze vragen in elk geval beantwoorden:
-
-- Welke informatie zit er in de audio die echt niet zichtbaar is?
-- Welke rol speelt de audio in het fragment?
-- Werkt de scene nog zonder geluid?
-- Waarom is dit fragment beter dan het aangeboden fragment?
-
-Je kan dan de nodige HTML en JavaScript genereren door gebruik te maken van [caption generator](https://cmda-minor-vid.github.io/web-typography-18-19/generator/) (in Google Chrome). 
-
-Als je de closed captions wil bewerken dan kan je een tool zoals [Amber Script](https://www.amberscript.com/en) gebruiken. Daar kan je exporteren als `.srt`, en die kan je weer door de generator halen.
