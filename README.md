@@ -1,4 +1,4 @@
-# Web Typography, Jesse Ros
+### Web Typography, Jesse Ros
 [Alle gesprekken met Darice staan hier genoteerd](https://docs.google.com/document/d/1-F7joxiKgjRJFMIHJM7xXkuiHlDqgFeEEK6WWKMJgpA/edit?usp=sharing)
 
 # Ontwerpkeuzes
