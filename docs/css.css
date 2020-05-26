@@ -69,6 +69,15 @@ All Animations
 	100% { transform: translate(0); }
   }
 
+@keyframes soundbar {
+	from {
+
+	}
+	to {
+		
+	}
+}
+
 /**************
 All Used Voices
 **************/
@@ -226,8 +235,9 @@ All Used Voices
 Sounds Animated
 ***************/
 .sound0 {
-	animation: shakeTurn 0.5s ease-in-out;
+	animation: shakeTurn 0.5s ease-in-out, ;
 	animation-iteration-count: 2;
+
 }
 
 .sound1 {
@@ -269,17 +279,120 @@ iframe {
 	animation-iteration-count: infinite;
 }
 
-/*************************
- Replicant SFX Kitt Style
- ************************/
+/*****************
+ Sound Visualisers
+ *****************/
+ .soundVisL {
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	box-shadow: 0px 0px 100px rgba(48, 228, 153, 0.767); 
+	background-image: linear-gradient(rgb(255, 0, 0), rgb(255, 196, 0), rgb(0, 255, 98));
+	position: absolute;
+	top: 22%;
+	left: 3%;
+	margin-left: auto;
+	margin-right: auto;
+	animation: soundAnimate 4s ease-in-out infinite alternate;
+	transform-origin: bottom center;
+	transform: rotate(180deg);
+  }
 
-#replicantKitt {
+  .soundVisR {
+	width: 60px;
+	height: 10px;
+	border-radius: 30px;
+	box-shadow: 0px 0px 100px rgba(48, 228, 153, 0.767); 
+	background-image: linear-gradient(rgb(255, 0, 0), rgb(255, 196, 0), rgb(0, 255, 98));
+	position: absolute;
+	top: 22%;
+	left: 90.5%;
+	margin-left: auto;
+	margin-right: auto;
+	animation: soundAnimate 4s ease-in-out infinite alternate;
+  }
+  
+@keyframes soundAnimate {
+	0% {
+		height: 60px;
+	}
+	50% {
+		height: 60px;
+	}
+	100% {
+		height: 480px;
+	}
+}
+
+/* #soundVisualiser {
 	position: absolute;
 	top: 30%;
 	left: 3%;
 	opacity: 0.8;
   }
-  .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten {
+
+  #soundVisualiser2 {
+	position: absolute;
+	top: 30%;
+	left: 90.5%;
+	opacity: 0.8;
+  } */
+
+  .one {
+	width: 80px;
+	height: 40px;
+	background: rgb(218, 44, 44);
+	margin: 0;
+	box-shadow: 0 0 30px rgb(197, 44, 77), inset 0 0 5px rgba(197, 44, 44, 0.5);
+	border-radius: 25px;
+	animation: 2.5s infinite alternate;
+  }
+  .two {
+	width: 80px;
+	height: 40px;
+	background: rgb(197, 75, 44);
+	margin: 0;
+	box-shadow: 0 0 30px rgb(197, 75, 44), inset 0 0 5px rgba(197, 80, 44, 0.5);
+	border-radius: 25px;
+	animation: 2.5s infinite alternate;
+  }
+  .three {
+	width: 80px;
+	height: 40px;
+	background: rgb(219, 175, 52);
+	margin: 0;
+	box-shadow: 0 0 30px rgb(197, 182, 44), inset 0 0 5px rgba(197, 182, 44, 0.5);
+	border-radius: 25px;
+	animation: 2.5s infinite alternate;
+  }
+  .four {
+	width: 80px;
+	height: 40px;
+	background: rgb(216, 205, 49);
+	margin: 0;
+	box-shadow: 0 0 30px rgb(169, 197, 44), inset 0 0 5px rgba(195, 197, 44, 0.5);
+	border-radius: 25px;
+	animation: 2.5s infinite alternate;
+  }
+  .five {
+	width: 80px;
+	height: 40px;
+	background: rgb(175, 209, 51);
+	margin: 0;
+	box-shadow: 0 0 30px rgb(161, 201, 52), inset 0 0 5px rgba(151, 197, 44, 0.5);
+	border-radius: 25px;
+	animation: 2.5s infinite alternate;
+  }
+  .six {
+	width: 80px;
+	height: 40px;
+	background: rgb(126, 197, 44);
+	margin: 0;
+	box-shadow: 0 0 30px rgb(113, 197, 44), inset 0 0 5px rgba(100, 197, 44, 0.5);
+	border-radius: 25px;
+	animation: 2.5s infinite alternate;
+  }
+  .seven, .eight, .nine, .ten {
 	width: 80px;
 	height: 40px;
 	background: rgb(44, 197, 133);
@@ -288,35 +401,36 @@ iframe {
 	border-radius: 25px;
 	animation: 2.5s infinite alternate;
   }
+  
   .one {
-	 animation-name: first ;
+	 animation-name: first;
   }
   .two {
-	animation-name: second ;
+	animation-name: second;
   }
   .three {
-	animation-name: third ;
+	animation-name: third;
   }
   .four {
-	animation-name: fourth ;
+	animation-name: fourth;
   }
   .five {
-	animation-name: fifth ;
+	animation-name: fifth;
   }
   .six {
-	animation-name: sixth ;
+	animation-name: sixth;
   }
   .seven {
-	animation-name: seventh ;
+	animation-name: seventh;
   }
   .eight {
-	animation-name: eighth ;
+	animation-name: eighth;
   }
   .nine {
-	animation-name: ninth ;
+	animation-name: ninth;
   }
   .ten {
-	animation-name: tenth ;
+	animation-name: tenth;
   }
 
   @keyframes first {
@@ -386,120 +500,6 @@ iframe {
 	100%  {opacity:1;}
   }
 
-  #replicantKitt2 {
-	position: absolute;
-	top: 30%;
-	left: 90.5%;
-	opacity: 0.8;
-
-  }
-  .one2, .two2, .three2, .four2, .five2, .six2, .seven2, .eight2, .nine2, .ten2 {
-	width: 80px;
-	height: 40px;
-	background: rgb(44, 197, 133);
-	margin: 0;
-	box-shadow: 0 0 30px rgb(44, 197, 133), inset 0 0 5px rgba(44, 197, 133, 0.5);
-	border-radius: 25px;
-	animation: 2.5s infinite alternate;
-  }
-  .one {
-	 animation-name: first2 ;
-  }
-  .two {
-	animation-name: second2 ;
-  }
-  .three {
-	animation-name: third2 ;
-  }
-  .four {
-	animation-name: fourth2 ;
-  }
-  .five {
-	animation-name: fifth2 ;
-  }
-  .six {
-	animation-name: sixth2 ;
-  }
-  .seven {
-	animation-name: seventh2 ;
-  }
-  .eight {
-	animation-name: eighth2 ;
-  }
-  .nine {
-	animation-name: ninth2 ;
-  }
-  .ten {
-	animation-name: tenth2 ;
-  }
-
-  @keyframes first2 {
-	0%   {opacity:0.2;}
-	10%  {opacity:1;}
-	20%  {opacity:0.2;}
-	100% {opacity:0;}
-  }
-  @keyframes second2 {
-	0%   {opacity:0;}
-	10%   {opacity:0.2;}
-	20%  {opacity:1;}
-	30%  {opacity:0.2;}
-	100% {opacity:0;}
-  }
-  @keyframes third2 {
-	0%   {opacity:0;}
-	20%  {opacity:0.2;}
-	30%  {opacity:1;}
-	40%  {opacity:0.2;}
-	100% {opacity:0;}
-  }
-  @keyframes fourth2 {
-	0%   {opacity:0;}
-	30%  {opacity:0.2;}
-	40%  {opacity:1;}
-	50%  {opacity:0.2;}
-	100% {opacity:0;}
-  }
-  @keyframes fifth2 {
-	0%   {opacity:0;}
-	40%  {opacity:0.2;}
-	50%  {opacity:1;}
-	60%  {opacity:0.2;}
-	100% {opacity:0;}
-  }
-  @keyframes sixth2 {
-	0%   {opacity:0;}
-	50%  {opacity:0.2;}
-	60%  {opacity:1;}
-	70%  {opacity:0.2;}
-	100% {opacity:0;}
-  }
-  @keyframes seventh2 {
-	0%   {opacity:0;}
-	60%  {opacity:0.2;}
-	70%  {opacity:1;}
-	80%  {opacity:0.2;}
-	100% {opacity:0;}
-  }
-  @keyframes eighth2 {
-	0%   {opacity:0;}
-	70%  {opacity:0.2;}
-	80%  {opacity:1;}
-	90%  {opacity:0.2;}
-	100% {opacity:0;}
-  }
-  @keyframes ninth2 {
-	0%   {opacity:0;}
-	80%  {opacity:0.2;}
-	90%  {opacity:1;}
-	100% {opacity:0.2;}
-  }
-  @keyframes tenth2 {
-	0%   {opacity:0;}
-	90%  {opacity:0.2;}
-	100%  {opacity:1;}
-  }
-
 /* **********************************************
 The first paragraph, with extended timing for 
 	all siblings. Basically what it does is that
@@ -510,68 +510,108 @@ You probably want to change the styling.
 ********************************************** */
 .p0 span {
 	opacity: 0;
-	font-family: brenner;
 }
 .p0.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
 	font-weight: 200;
+	font-family: "Brenner sans light";
 }
 .p0.on span:nth-of-type(2) {
 	opacity: 1;
 	transition: 0s .4s;
 	margin-right: -.25em;
-	font-weight: 400;
+	font-weight: 800;
+	font-family: "Brenner sans light";
 }
 .p0.on span:nth-of-type(3) {
 	opacity: 1;
 	transition: 0s .5s;
 	margin-right: -.25em;
-	font-weight: 600;
+	font-weight: 800;
+	font-family: "Brenner sans light";
+
 }
 .p0.on span:nth-of-type(4) {
 	opacity: 1;
 	transition: 0s .7s;
 	margin-right: -.25em;
 	font-weight: 800;
+	font-family: "Brenner sans light";
+
 }
 .p0.on span:nth-of-type(5) {
 	opacity: 1;
 	transition: 0s 1.1s;
 	margin-right: -.25em;
-	font-family: "brenner sans";
+	font-weight: 800;
+	font-family: "Brenner sans light";
 }
 .p0.on span:nth-of-type(6) {
 	opacity: 1;
 	transition: 0s 1.4s;
 	margin-right: -.25em;
-	font-family: "brenner display";
+	font-weight: 800;
+	font-family: "Brenner sans light";
 }
 .p0.on span:nth-of-type(7) {
 	opacity: 1;
 	transition: 0s 1.7s;
 	margin-right: -.25em;
-	font-family: "brenner script";
+	font-weight: 800;
+	font-family: "Brenner sans light";
 }
 .p0.on span:nth-of-type(8) {
 	opacity: 1;
 	transition: 0s 2s;
-	font-family: "brenner script";
+	font-weight: 800;
+	font-family: "Brenner sans light";
 }
 .p0.on span:nth-of-type(9) {
 	opacity: 1;
 	transition: 0s 3s;
-	font-family: "brenner Sans condensed";
+	font-family: "Brenner sans light";
 }
 .p0.on span:nth-of-type(10) {
 	opacity: 1;
 	transition: 0s 3.2s;
-	font-family: "brenner mono";
+	font-family: "Brenner sans light";
 }
 .p0.on span:nth-of-type(11) {
 	opacity: 1;
 	transition: 0s 3.7s;
-	font-family: "brenner slab";
+	margin-right: -2.5em;
+	font-family: "Brenner sans light";
+}
+
+.p1.on span:first-of-type {
+	opacity: 1;
+	transition: 0s 0s;
+}
+.p1.on span:nth-of-type(2) {
+	opacity: 1;
+	transition: 0s 0.2s;
+}
+
+.p7.on span:first-of-type,
+.p7.on span:nth-of-type(2),
+.p7.on span:nth-of-type(3),
+.p7.on span:nth-of-type(4),
+.p7.on span:nth-of-type(5),
+.p7.on span:nth-of-type(6) {
+	opacity: 1;
+	transition: 0s .5s;
+}
+.p7.on span:nth-of-type(7),
+.p7.on span:nth-of-type(8),
+.p7.on span:nth-of-type(9),
+.p7.on span:nth-of-type(10),
+.p7.on span:nth-of-type(11),
+.p7.on span:nth-of-type(12),
+.p7.on span:nth-of-type(13) {
+	opacity: 1;
+	transition: 0s .5s;
+	transition-delay: 2s;
 }
 
 /* Cells - Cells */
@@ -873,3 +913,30 @@ You probably want to change the styling.
 	}
   }
   
+  /******************************
+  Fixes voor smalle tekst balkjes 
+  ******************************/
+
+  #voiceYesSir {
+	  width: 8em;
+  }
+
+  #voiceRecite {
+	  width: 16em;
+  }
+
+  #voiceSpin {
+	  width: 25em;
+  }
+
+  #voiceWithinCells {
+	  width: 24em;
+  }
+
+  #voiceWithinOneStem {
+	  width: 20em;
+  }
+
+  #voiceTallWhiteFountain {
+	  width: 23em;
+  }
