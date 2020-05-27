@@ -5,12 +5,9 @@ Show them when they receive the class 'on'
 Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
-html, body {
-	width: 99%;
-	height: 100%;
-	min-height: 100%;
-	height: auto;
+body {
 	background: black;
+	overflow: hidden;
 }
 
 #closed-captions p {
@@ -28,6 +25,37 @@ html, body {
 	transition: .2s;
 	opacity: 0;
 }
+
+img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	z-index: -100;
+	opacity: 0;
+}
+
+/* .scanning {
+	position: absolute;
+	bottom: 100%;
+	width: 99%;
+	stroke-width: 10px;
+	stroke: rgb(57, 182, 130);
+	opacity: 1;
+	animation: scanLine 3s alternate 2;
+   }
+   
+   @keyframes scanLine {
+	0% {
+	 bottom: 100%; 
+	}
+	50% {
+	 bottom: 0%;
+	}
+	100% {
+	 bottom: 100%;
+	}
+   } */
 
 /*************
 All Animations
@@ -114,9 +142,6 @@ All Used Voices
 .voice3 {
 	font-family: "Brenner sans bold italic";
 	color: rgb(247, 108, 108);
-	/* text-decoration-style: double;
-	text-decoration-line: underline;
-	text-decoration-color: rgb(156, 64, 64); */
 	background-color: rgba(0,0,0,0.5);
 	border-radius: 15px;
 	padding: 0.5em;
@@ -222,28 +247,89 @@ All Used Voices
 /***************
 Sounds Animated
 ***************/
-.sound0, .soundVisL {
-	animation: shakeTurn 0.5s ease-in-out, 	soundAnimate 4s ease-in-out infinite alternate;
-	animation-iteration-count: 2;
+.sound0 > #video-placeholder{
+	animation: shakeTurn 0.5s ease-in-out 2;
+}
+
+.sound0 .equalizerL {
+	animation: soundAnimate 2s ease-in-out alternate 2;
+}
+
+.sound0 .equalizerR {
+	animation: soundAnimate 2s ease-in-out alternate 2;
 }
 
 .sound1 {
-	animation: borderGlow 2.5s ease-in-out;
-	animation-iteration-count: 1;
+	animation: borderGlow 2.5s ease-in-out 2;
 }
 
-.sound2 {
-	animation: alarmSound 1.5s ease-in-out;
-	animation-iteration-count: 1;
+.sound1 .soundVisL {
+	animation: soundAnimate 3s ease-in-out alternate 2;
+}
+
+.sound1 .soundVisR {
+	animation: soundAnimate 3s ease-in-out alternate 2;
+}
+
+.sound2  {
+	animation: alarmSound 1.5s ease-in-out 1;
 }
 
 .sound3 {
-	animation: shakeTurn 0.5s ease-in-out;
-	animation-iteration-count: 2;
+	animation: shakeTurn 0.5s ease-in-out 2;
 }
 
 .fuckOff {
 	animation: vibrate 0.3s linear infinite both;
+}
+
+.sound8 {
+	animation: shakeTurn 0.5s ease-in-out 2;
+}
+
+.sound9 {
+	animation: highPitched 5s ease-in-out ;
+}
+
+/* @keyframes highPitched {
+0%   { 
+	background-color: #000000;
+	background-image: none;
+}
+99%  {
+	background-color: rgba(101, 245, 190, 0.452); 
+}
+100% {
+	background-color: #000000; 
+	}
+} */
+
+.sound9 > img {
+	animation: runnerGif 42.5s ease-in-out;
+}
+
+@keyframes runnerGif {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 0.7;
+	}
+}
+
+.sound11 > img {
+	animation: runnerGifRed 10s ease-in-out;
+}
+
+@keyframes runnerGifRed {
+	from {
+		opacity: 0;
+		filter: blur(15px) hue-rotate(200deg);
+	}
+	to {
+		opacity: 0.7;
+		filter: blur(0px) hue-rotate(200deg);
+	}
 }
 
 iframe {
@@ -260,25 +346,20 @@ iframe {
 	margin-left: -30em;
 }
 
-.animated {
-	animation-duration: 5s;
-	animation-delay: 2s;
-	animation-iteration-count: infinite;
-}
-
 /*****************
  Sound Visualisers
  *****************/
-.soundDivL {
+.equalizerDiv1 {
 	position: absolute;
+	transform: rotate(-90deg);
 	height: 480px;
 	width: 5em;
-	top: 22%;
-	left: 3%;
+	top: 23.5em;
+	left: -8em;
 }
 
- .soundVisL {
-	width: 30px;
+ .equalizerL {
+	width: 500px;
 	height: 30px;
 	border-radius: 30px 30px 10px 10px;
 	box-shadow: 0px 0px 100px  rgba(117, 251, 251, 0.7); 
@@ -287,16 +368,17 @@ iframe {
 	bottom: 0;
   }
 
-  .soundDivR {
+  .equalizerDiv2 {
 	position: absolute;
+	transform: rotate(90deg);
 	height: 480px;
 	width: 5em;
-	top: 22%;
-	left: 90.5%;
+	top: -3em;
+	left: 92.5em;
 }
 
-  .soundVisR {
-	width: 30px;
+  .equalizerR {
+	width: 500px;
 	height: 30px;
 	border-radius: 30px 30px 10px 10px;
 	box-shadow: 0px 0px 100px  rgba(117, 251, 251, 0.7); 
@@ -304,180 +386,50 @@ iframe {
 	position: absolute;
 	bottom: 0;
   }
-  
+/*   
 @keyframes soundAnimate {
 	0% {
 		height: 30px;
 	}
-	50% {
-		height: 30px;
+	30% {
+		height: 200px;
 	}
-	100% {
+	60%, 70%, 80%, 90%, 100% {
 		height: 480px;
 	}
+} */
+
+/* .bar:nth-child(1) { 
+  animation-delay: -1.9s;
+  color: red;
 }
 
-  .one {
-	width: 80px;
-	height: 40px;
-	background: rgb(218, 44, 44);
-	margin: 0;
-	box-shadow: 0 0 30px rgb(197, 44, 77), inset 0 0 5px rgba(197, 44, 44, 0.5);
-	border-radius: 25px;
-	animation: 2.5s infinite alternate;
-  }
-  .two {
-	width: 80px;
-	height: 40px;
-	background: rgb(197, 75, 44);
-	margin: 0;
-	box-shadow: 0 0 30px rgb(197, 75, 44), inset 0 0 5px rgba(197, 80, 44, 0.5);
-	border-radius: 25px;
-	animation: 2.5s infinite alternate;
-  }
-  .three {
-	width: 80px;
-	height: 40px;
-	background: rgb(219, 175, 52);
-	margin: 0;
-	box-shadow: 0 0 30px rgb(197, 182, 44), inset 0 0 5px rgba(197, 182, 44, 0.5);
-	border-radius: 25px;
-	animation: 2.5s infinite alternate;
-  }
-  .four {
-	width: 80px;
-	height: 40px;
-	background: rgb(216, 205, 49);
-	margin: 0;
-	box-shadow: 0 0 30px rgb(169, 197, 44), inset 0 0 5px rgba(195, 197, 44, 0.5);
-	border-radius: 25px;
-	animation: 2.5s infinite alternate;
-  }
-  .five {
-	width: 80px;
-	height: 40px;
-	background: rgb(175, 209, 51);
-	margin: 0;
-	box-shadow: 0 0 30px rgb(161, 201, 52), inset 0 0 5px rgba(151, 197, 44, 0.5);
-	border-radius: 25px;
-	animation: 2.5s infinite alternate;
-  }
-  .six {
-	width: 80px;
-	height: 40px;
-	background: rgb(126, 197, 44);
-	margin: 0;
-	box-shadow: 0 0 30px rgb(113, 197, 44), inset 0 0 5px rgba(100, 197, 44, 0.5);
-	border-radius: 25px;
-	animation: 2.5s infinite alternate;
-  }
-  .seven, .eight, .nine, .ten {
-	width: 80px;
-	height: 40px;
-	background: rgb(44, 197, 133);
-	margin: 0;
-	box-shadow: 0 0 30px rgb(44, 197, 133), inset 0 0 5px rgba(44, 197, 133, 0.5);
-	border-radius: 25px;
-	animation: 2.5s infinite alternate;
-  }
-  
-  .one {
-	 animation-name: first;
-  }
-  .two {
-	animation-name: second;
-  }
-  .three {
-	animation-name: third;
-  }
-  .four {
-	animation-name: fourth;
-  }
-  .five {
-	animation-name: fifth;
-  }
-  .six {
-	animation-name: sixth;
-  }
-  .seven {
-	animation-name: seventh;
-  }
-  .eight {
-	animation-name: eighth;
-  }
-  .nine {
-	animation-name: ninth;
-  }
-  .ten {
-	animation-name: tenth;
-  }
+.bar:nth-child(2) { 
+  animation-delay: -2s;
+}
 
-  @keyframes first {
-	0%   {opacity:0.2;}
-	10%  {opacity:1;}
-	20%  {opacity:0.2;}
-	100% {opacity:0;}
+.bar:nth-child(3) { 
+  animation-delay: -2.3s;
+}
+
+.bar:nth-child(4) { 
+  animation-delay: -2.4s;
+}
+
+.bar:nth-child(5) { 
+  animation-delay: -2.1s;
+}
+
+@keyframes equalize {
+  0% {
+	height: 20px;
+	fill: transparent;
   }
-  @keyframes second {
-	0%   {opacity:0;}
-	10%   {opacity:0.2;}
-	20%  {opacity:1;}
-	30%  {opacity:0.2;}
-	100% {opacity:0;}
-  }
-  @keyframes third {
-	0%   {opacity:0;}
-	20%  {opacity:0.2;}
-	30%  {opacity:1;}
-	40%  {opacity:0.2;}
-	100% {opacity:0;}
-  }
-  @keyframes fourth {
-	0%   {opacity:0;}
-	30%  {opacity:0.2;}
-	40%  {opacity:1;}
-	50%  {opacity:0.2;}
-	100% {opacity:0;}
-  }
-  @keyframes fifth {
-	0%   {opacity:0;}
-	40%  {opacity:0.2;}
-	50%  {opacity:1;}
-	60%  {opacity:0.2;}
-	100% {opacity:0;}
-  }
-  @keyframes sixth {
-	0%   {opacity:0;}
-	50%  {opacity:0.2;}
-	60%  {opacity:1;}
-	70%  {opacity:0.2;}
-	100% {opacity:0;}
-  }
-  @keyframes seventh {
-	0%   {opacity:0;}
-	60%  {opacity:0.2;}
-	70%  {opacity:1;}
-	80%  {opacity:0.2;}
-	100% {opacity:0;}
-  }
-  @keyframes eighth {
-	0%   {opacity:0;}
-	70%  {opacity:0.2;}
-	80%  {opacity:1;}
-	90%  {opacity:0.2;}
-	100% {opacity:0;}
-  }
-  @keyframes ninth {
-	0%   {opacity:0;}
-	80%  {opacity:0.2;}
-	90%  {opacity:1;}
-	100% {opacity:0.2;}
-  }
-  @keyframes tenth {
-	0%   {opacity:0;}
-	90%  {opacity:0.2;}
-	100%  {opacity:1;}
-  }
+  100% {
+	height: 100px;
+	fill: currentColor;
+	}
+}  */
 
 /* **********************************************
 The first paragraph, with extended timing for 
@@ -517,7 +469,6 @@ You probably want to change the styling.
 	margin-right: -.25em;
 	font-weight: 800;
 	font-family: "Brenner sans light";
-
 }
 .p0.on span:nth-of-type(5) {
 	opacity: 1;
