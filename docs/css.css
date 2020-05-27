@@ -69,15 +69,6 @@ All Animations
 	100% { transform: translate(0); }
   }
 
-@keyframes soundbar {
-	from {
-
-	}
-	to {
-		
-	}
-}
-
 /**************
 All Used Voices
 **************/
@@ -167,7 +158,6 @@ All Used Voices
 .cellsAnim1 {
 	margin-top: -17em;
 	margin-left: -17em;
-	/* animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940); */
 }
 
 .cellsAnim2 {
@@ -200,14 +190,12 @@ All Used Voices
 .interAnim1 {
 	margin-top: -17em;
 	margin-left: -17em;
-	/* animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940); */
 }
 
 .interAnim2 {
 	margin-top: -17em;
 	margin-left: 17em;
 	animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940);
-
 }
 
 .withinAnim {
@@ -234,10 +222,9 @@ All Used Voices
 /***************
 Sounds Animated
 ***************/
-.sound0 {
-	animation: shakeTurn 0.5s ease-in-out, ;
+.sound0, .soundVisL {
+	animation: shakeTurn 0.5s ease-in-out, 	soundAnimate 4s ease-in-out infinite alternate;
 	animation-iteration-count: 2;
-
 }
 
 .sound1 {
@@ -291,14 +278,13 @@ iframe {
 }
 
  .soundVisL {
-	width: 60px;
-	height: 60px;
-	border-radius: 30px;
-	box-shadow: 0px 0px 100px rgba(48, 228, 153, 0.767); 
-	background-image: linear-gradient(rgb(255, 0, 0), rgb(255, 196, 0), rgb(0, 255, 98));
+	width: 30px;
+	height: 30px;
+	border-radius: 30px 30px 10px 10px;
+	box-shadow: 0px 0px 100px  rgba(117, 251, 251, 0.7); 
+	background: linear-gradient(180deg, rgba(186,42,90,0.9) 20%, rgba(117,251,167,0.9) 50%, rgba(78,158,179,0.9) 80%);
 	position: absolute;
 	bottom: 0;
-	animation: soundAnimate 4s ease-in-out infinite alternate;
   }
 
   .soundDivR {
@@ -310,41 +296,26 @@ iframe {
 }
 
   .soundVisR {
-	width: 60px;
-	height: 10px;
-	border-radius: 30px;
-	box-shadow: 0px 0px 100px rgba(48, 228, 153, 0.767); 
-	background-image: linear-gradient(rgb(255, 0, 0), rgb(255, 196, 0), rgb(0, 255, 98));
+	width: 30px;
+	height: 30px;
+	border-radius: 30px 30px 10px 10px;
+	box-shadow: 0px 0px 100px  rgba(117, 251, 251, 0.7); 
+	background: linear-gradient(180deg, rgba(186,42,90,0.9) 20%, rgba(117,251,167,0.9) 50%, rgba(78,158,179,0.9) 80%);
 	position: absolute;
 	bottom: 0;
-	animation: soundAnimate 4s ease-in-out infinite alternate;
   }
   
 @keyframes soundAnimate {
 	0% {
-		height: 60px;
+		height: 30px;
 	}
 	50% {
-		height: 60px;
+		height: 30px;
 	}
 	100% {
 		height: 480px;
 	}
 }
-
-/* #soundVisualiser {
-	position: absolute;
-	top: 30%;
-	left: 3%;
-	opacity: 0.8;
-  }
-
-  #soundVisualiser2 {
-	position: absolute;
-	top: 30%;
-	left: 90.5%;
-	opacity: 0.8;
-  } */
 
   .one {
 	width: 80px;
