@@ -23,8 +23,8 @@ Voor het personage *K* heb ik een meer uitgesproken font gekozen, namelijk 'Bren
 
 <img width="192" alt="Screenshot 2020-05-26 at 15 32 05 copy" src="https://user-images.githubusercontent.com/37974966/82906937-44531e80-9f66-11ea-8e73-01f5b9851f42.png">
 
-## Exclusive design
-# Study situation
+# Exclusive design
+## Study situation
 Om te leren wie Darice is en wat haar situatie is hebben 3 andere studenten en ik een aantal belangrijke vragen gesteld tijdens het kennismakings gesprek. Deze kun je lezen in het transcript boven aan de ReadMe. Ik wilde graag weten wat zij fijn vind en wat niet wanneer ze films kijkt. En in wat voor soort omgeving zij meestal films kijkt, of ze uberhaupt films kijkt of misschien vaker series? Darice gaf veel interessante antwoorden waarmee ik goed aan de slag kon gaan. Tijdens de feedback gesprekken was Darice positief over veel van de keuzes die ik had gemaakt, en gelukkig ook kritisch en had ze feedback op andere punten. Hierdoor heb ik veel van wat zij fijn vind in ondertiteling kunnen verwerken in mijn eindproduct.
 
 # Ignore conventions
@@ -32,11 +32,8 @@ Ik heb een jaar lang voor RTL Nederland gewerkt en hier promo's voor films en se
 
 De omgeving van de video is ook speels, er er gebeuren meerdere dingen die een meerwaarde hebben voor een slechthorend persoon. Zo geven de groene en rode 'netrunner' achtergronden een gevoel dat je ergens ingezogen word net als dat de audio doet tijdens de scenes met 'K'. De tweede achtergrond is rood en meer verstoord omdat dit het keerpunt in de film is wanneer de LAPD door krijgt dat hij gevoelens krijgt die hij niet hoort te hebben. Vervolgens valt de video weg en verschijnt de laatste zin met een dramatisch effect. Ik probeer met dit alles emotie en tone of voice te creëren met de omgeving.
 
-# Prioritise identity
+## Prioritise identity
 Door middel van de gesprekken met Darice denk ik enigszins haar identiteit te kennen, al is het maar een beetje. Haar voorkeuren wanneer het op films kijken aankomt waren duidelijk. Zij wilde duidelijk kleur onderscheid, niet te drukke bewegingen of flitsende achtergronden en een goede leesbaarheid. Ik heb dit allemaal verwerkt in mijn eindproduct; de teksten hebben een lichte background om zo leesbaarheid te optimaliseren, de personages hebben eigen kenmerkende kleuren en naam indicatoren. Ook zijn de bewegingen smooth en niet abrupt en snel, en er zit een ritme in. De overige animaties heb ik vrij langzaam laten bewegen om zo toch de rust te bewaren en dat Darice het niet irritant zal vinden om naar te kijken.
 
-# Add Nonsense
+## Add Nonsense
 Ik vond het vooral in het begin erg lastig om nonsense toe te voegen en toch trouw te blijven aan wat Darice wilde van het product. Maar na dit te hebben gevraagd aan Vasilis was het voor mij duidelijk genoeg. Ik moest een balans vinden, dit heb ik gedaan door meerdere elementen toe te passen die op zich zelf staan maar toch goed samen werken. En met deze elementen dan een sfeer te creëren die bij de film past, die Darice fijn vind en die toch bestaan uit (hopelijk) nonsense.
-
-
-# Add nonsense
