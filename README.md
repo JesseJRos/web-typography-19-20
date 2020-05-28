@@ -8,7 +8,7 @@ Na het kennismakings gesprek met Darice begon ik eerst met de ondertiteling op h
 
 In latere iteraties heb ik ook nog gespeeld met tekst op verschillende plekken op het scherm te zetten. Zoals bij de 'fuck off, skin job!' line. Deze verschijnt boven het hoofd van de man die het uitspreekt. Dit werkte erg goed volgens Darice, dus ik heb deze een kleine animatie gegeven en wat meer styling.  
 
-![fuckoffskinjob](https://user-images.githubusercontent.com/37974966/82904526-e40ead80-9f62-11ea-8097-a9f8477c77fc.gif)
+![fuckoffskinjob2](https://user-images.githubusercontent.com/37974966/83144973-5d89d580-a0f4-11ea-8128-2c3a41a6aeeb.gif)
 
 Ook heb ik in de scenes waarbij beide personen 'cells' en 'interlinked' zeggen, de woorden anders gepositioneerd en geanimeerd. Deze animaties zorgen er voor dat je merkt hoe snel zij dit heen en weer zeggen. De positionering is vooral voor de compositie en niet de klank. Wanneer de camera draait verandert de positie van de 'cells' zinnen van 'K' ook naar de linker kant zoals je hier kunt zien.
 
