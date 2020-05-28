@@ -10,9 +10,11 @@ In latere iteraties heb ik ook nog gespeeld met tekst op verschillende plekken o
 
 ![fuckoffskinjob](https://user-images.githubusercontent.com/37974966/82904526-e40ead80-9f62-11ea-8097-a9f8477c77fc.gif)
 
-Ook heb ik in de scenes waarbij beide personen 'cells' en 'interlinked' heen en weer zeggen, de woorden anders gepositioneerd en geanimeerd. Deze animaties zorgen er voor dat je merkt hoe snel zij dit heen en weer zeggen. De positionering is vooral voor hoe het er uit ziet. Wanneer de camera draait verandert de positie van de 'cells' zinnen van 'K' ook naar de linker kant zoals je hier kunt zien.
+Ook heb ik in de scenes waarbij beide personen 'cells' en 'interlinked' zeggen, de woorden anders gepositioneerd en geanimeerd. Deze animaties zorgen er voor dat je merkt hoe snel zij dit heen en weer zeggen. De positionering is vooral voor de compositie en niet de klank. Wanneer de camera draait verandert de positie van de 'cells' zinnen van 'K' ook naar de linker kant zoals je hier kunt zien.
 
-![cellsInterlinked](https://user-images.githubusercontent.com/37974966/82906582-c858d680-9f65-11ea-9923-5ce4fcedce1a.gif)
+![interlinkedcellsscene](https://user-images.githubusercontent.com/37974966/83144494-b4db7600-a0f3-11ea-909c-098a0ee7ad29.gif)
+
+Daarnaast zie je ook dat ik de herhaling van de zin "within cells interlinked" op een andere manier heb geanimeerd. In deze scene is 'K' nog niet "corrupted" in de ogen van de LAPD en dus zeker van zijn zaak. Hierdoor spreekt hij ook krachtig en zelfverzekerd deze zin 3 keer uit en dit komt terug in de animatie waarbij de zinnen krachtig naar beneden vallen en op elkaar stapelen.
 
 ## Typografische onderbouwing
 Daarnaast ging ik goed luisteren naar hoe de personen klinken en wat hun rol is in deze scenes. Ik heb door alle fonts uit de Brenner family gekeken en daar 2 van uitgekozen die ik het beste vond passen bij hun tone of voice. De 'intercom' stem heeft een grijs-groene kleur gekregen en word weergegeven in 'Brenner sans light'. Een kil ogend lettertype en kleur voor een robotisch klinkende stem die erg serieus overkomt in deze scenes. Het lettertype is recht toe recht aan, zonder poespas. En de kleur ondersteund dit.
@@ -25,6 +27,9 @@ Voor het personage *K* heb ik een meer uitgesproken font gekozen, namelijk 'Bren
 
 ## Kleurgebruik
 Bladerunner 2049 heeft een sterk kleurenpalet. Het mengt de typische cyberpunk kleuren (cyaan/magenta/turqouise) met een kleurenpalet die goed samenwerkt met het concept van een dystopische toekomst. Hierdoor worden de felle cyberpunk kleuren al gauw wat grimmiger. Deze kleuren heb ik nauw aangehouden en heb ik toegepast op alles wat kleur heeft. De teksten, achtergrond animaties, rand 'glows' en de equalizers bevatten allemaal tonen van deze hoofd kleuren. Alhoewel Bladerunner zich in de toekomst afspeelt is er niks shiny en smooth aan. Veel van de visualisaties in de film zijn robuust, zanderig en ruw. Ook dit komt weer terug in het gebruik van mijn visualisaties en voegt toe aan de sfeer van de film.
+
+## Visuele effecten
+
 
 # Exclusive design
 ## Study situation
