@@ -45,3 +45,10 @@ Door middel van de gesprekken met Darice denk ik enigszins haar identiteit te ke
 
 ## Add Nonsense
 Ik vond het vooral in het begin erg lastig om nonsense toe te voegen en toch trouw te blijven aan wat Darice wilde van het product. Maar na dit te hebben gevraagd aan Vasilis was het voor mij duidelijk genoeg. Ik moest een balans vinden, dit heb ik gedaan door meerdere elementen toe te passen die op zich zelf staan maar toch goed samen werken. En met deze elementen dan een sfeer te creëren die bij de film past, die Darice fijn vind en die toch bestaan uit (hopelijk) nonsense.
+
+
+# Sources
+* [Code van Vasilis](https://github.com/cmda-minor-vid/web-typography-19-20)
+* [Animista/net](https://animista.net)
+* [CSS Almanac](https://css-tricks.com/almanac/)
+* [Matrix Grid Gif](https://66.media.tumblr.com/660e1bf2356436a781610bbda1a069bf/tumblr_of4a0oMfkv1vfoqtxo1_1280.gifv)
