@@ -23,6 +23,8 @@ Voor het personage *K* heb ik een meer uitgesproken font gekozen, namelijk 'Bren
 
 <img width="223" alt="Screenshot 2020-05-28 at 12 02 11" src="https://user-images.githubusercontent.com/37974966/83128036-2824be00-a0db-11ea-9d4d-fe340bfda5a6.png">
 
+## Kleurgebruik
+Bladerunner 2049 heeft een sterk kleurenpalet. Het mengt de typische cyberpunk kleuren (cyaan/magenta/turqouise) met een kleurenpalet die goed samenwerkt met het concept van een dystopische toekomst. Hierdoor worden de felle cyberpunk kleuren al gauw wat grimmiger. Deze kleuren heb ik nauw aangehouden en heb ik toegepast op alles wat kleur heeft. De teksten, achtergrond animaties, rand 'glows' en de equalizers bevatten allemaal tonen van deze hoofd kleuren. Alhoewel Bladerunner zich in de toekomst afspeelt is er niks shiny en smooth aan. Veel van de visualisaties in de film zijn robuust, zanderig en ruw. Ook dit komt weer terug in het gebruik van mijn visualisaties en voegt toe aan de sfeer van de film.
 
 # Exclusive design
 ## Study situation
