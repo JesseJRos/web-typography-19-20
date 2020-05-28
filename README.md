@@ -49,6 +49,6 @@ Ik vond het vooral in het begin erg lastig om nonsense toe te voegen en toch tro
 
 # Sources
 * [Code van Vasilis](https://github.com/cmda-minor-vid/web-typography-19-20)
-* [Animista/net](https://animista.net)
+* [Animista](https://animista.net)
 * [CSS Almanac](https://css-tricks.com/almanac/)
 * [Matrix Grid Gif](https://66.media.tumblr.com/660e1bf2356436a781610bbda1a069bf/tumblr_of4a0oMfkv1vfoqtxo1_1280.gifv)
