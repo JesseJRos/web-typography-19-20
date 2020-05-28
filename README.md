@@ -1,5 +1,6 @@
 ### Web Typography, Jesse Ros
-[Alle gesprekken met Darice staan hier genoteerd](https://docs.google.com/document/d/1-F7joxiKgjRJFMIHJM7xXkuiHlDqgFeEEK6WWKMJgpA/edit?usp=sharing)
+* [Alle gesprekken met Darice staan hier genoteerd](https://docs.google.com/document/d/1-F7joxiKgjRJFMIHJM7xXkuiHlDqgFeEEK6WWKMJgpA/edit?usp=sharing)
+* [Link naar het eindproduct](https://jessejros.github.io/web-typography-19-20/)
 
 # Ontwerpkeuzes
 ## Vlakverdeling
