@@ -17,11 +17,11 @@ Ook heb ik in de scenes waarbij beide personen 'cells' en 'interlinked' heen en 
 ## Typografische onderbouwing
 Daarnaast ging ik goed luisteren naar hoe de personen klinken en wat hun rol is in deze scenes. Ik heb door alle fonts uit de Brenner family gekeken en daar 2 van uitgekozen die ik het beste vond passen bij hun tone of voice. De 'intercom' stem heeft een grijs-groene kleur gekregen en word weergegeven in 'Brenner sans light'. Een kil ogend lettertype en kleur voor een robotisch klinkende stem die erg serieus overkomt in deze scenes. Het lettertype is recht toe recht aan, zonder poespas. En de kleur ondersteund dit.
 
-<img width="134" alt="Screenshot 2020-05-28 at 11 59 48" src="https://user-images.githubusercontent.com/37974966/83127779-dc721480-a0da-11ea-9d92-81986bc184a6.png">
+![interlinked](https://user-images.githubusercontent.com/37974966/83128303-85b90a80-a0db-11ea-9a88-b5f21ee9ee5e.png)
 
 Voor het personage *K* heb ik een meer uitgesproken font gekozen, namelijk 'Brenner slab medium italic'. Het is een dik lettertype met de kenmerkende serif uitsteeksels. Het komt statisch en zelfverzekerd over. De paarse lavendel-achtige kleur valt binnen het cyberpunk thema dat kenmerkend is voor deze film, net zoals de grijs-groene kleur van de intercom spreker. Ook brengt deze kleur een soort nobelheid met zich mee, wat ik goed vind passen bij 'K'. 
 
-<img width="149" alt="Screenshot 2020-05-28 at 11 59 52" src="https://user-images.githubusercontent.com/37974966/83127739-cfedbc00-a0da-11ea-9ff3-e54d70ca0d58.png">
+<img width="223" alt="Screenshot 2020-05-28 at 12 02 11" src="https://user-images.githubusercontent.com/37974966/83128036-2824be00-a0db-11ea-9d4d-fe340bfda5a6.png">
 
 
 # Exclusive design
